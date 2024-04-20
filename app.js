@@ -1,15 +1,19 @@
-// let number = Array(100,200,300,400,500,600)
-// console.log(number[0]);
+let age = 16
+if(age<=15){
+    if(age == 15){
+        console.log("ม.3")
+    }else if(age==14){
+        console.log("ม.2")
+    }else if(age ==13){
+        console.log("ม.1")
+    }else{
+        console.log("ยังไม่สามารถเรียนได้ ประถม")
+    }
+}else {
+    console.log("ม.ปลาย / ปริญญา")
+}
 
 
-let colors = ['red','pink','green','blue']
-colors[1] = 'เหลือง'
-console.log(colors)
-console.log(colors[1]) 
-
-
-
-let days = ['','','','','']
 
 
 
